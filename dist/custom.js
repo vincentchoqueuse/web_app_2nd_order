@@ -43,7 +43,7 @@ $(function () {
             num = num.join(",");
             den = den.join(",");
             T_max =5/(w0);
-            url = "https://bzhjqstm3f.execute-api.eu-west-1.amazonaws.com/dep?num="+num+"&den="+den+"&T_max="+T_max;
+            url = "https://bzhjqstm3f.execute-api.eu-west-1.amazonaws.com/dep?num="+num+"&den="+den+"&tmax="+T_max;
                     
             $("#btn_submit").prop("disabled",true);
             $("#btn_submit").text("Please Wait ...");
